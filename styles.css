@@ -275,6 +275,16 @@ li a:hover {
     margin-bottom: 0px;
     border-radius: 0px;
   }
+  body {
+    margin: 0!important;
+    scrollbar-width: none;
+    font-size: 4em !important;
+  }
+  }
+  body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+  }
   .foot {
     width: 100vw;
     border-radius: 0px;
