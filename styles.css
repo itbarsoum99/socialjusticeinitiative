@@ -79,7 +79,7 @@ ul {
   font-weight: 300;
 }
 
-.right a {
+.right .button {
   color: rgba(255,255,255,0.83);
   text-decoration: none;
   border: 0.7px solid rgba(255,255,255,0.83);
@@ -88,7 +88,7 @@ ul {
   transition: 0.3s;
 }
 
-.right a:hover {
+.right button:hover {
   color: #5effff;
   cursor: pointer;
   border-color: #5effff;
@@ -171,6 +171,7 @@ li p{
 }
 
 li a {
+  color: rgba(255,255,255,0.83);
   border: none !important;
   text-decoration: underline #fff !important;
   padding: 0px !important;
@@ -336,7 +337,7 @@ li a:hover {
   .right {
     font-size: 48px;
   }
-  .right a {
+  .right button {
     border: 1.7px solid rgba(255,255,255,0.83);
   }
   .border {
