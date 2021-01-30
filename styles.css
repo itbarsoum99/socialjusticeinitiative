@@ -91,7 +91,7 @@ ul {
 .right a:hover {
   color: #5effff;
   cursor: pointer;
-  border: 0.7px solid #5effff;
+  border-color: #5effff;
 }
 
 .border {
