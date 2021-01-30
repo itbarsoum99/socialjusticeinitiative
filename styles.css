@@ -279,7 +279,7 @@ li a:hover {
     margin: 0!important;
     scrollbar-width: none;
     font-size: 2em !important;
-  }
+    background-color: #000;
   }
   body::-webkit-scrollbar {
     display: none;
@@ -336,6 +336,9 @@ li a:hover {
   }
   .right {
     font-size: 48px;
+  }
+  .right a {
+    border: 1.7px solid rgba(255,255,255,0.83);
   }
   .border {
     font-size: 60px;
