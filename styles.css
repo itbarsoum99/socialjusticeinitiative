@@ -278,7 +278,7 @@ li a:hover {
   body {
     margin: 0!important;
     scrollbar-width: none;
-    font-size: 4em !important;
+    font-size: 2em !important;
   }
   }
   body::-webkit-scrollbar {
@@ -333,5 +333,14 @@ li a:hover {
   }
   .som {
     display: block;
+  }
+  .right {
+    font-size: 48px;
+  }
+  .border {
+    font-size: 60px;
+  }
+  .subhead {
+    font-size: 45px;
   }
 }
