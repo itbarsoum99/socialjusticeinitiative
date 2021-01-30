@@ -344,7 +344,8 @@ li a:hover {
     font-size: 54px;
   }
   .head {
-    font-size: 1.5em;
+    font-size: 3.5em;
+    line-height: .90;
   }
   .subhead {
     font-size: 45px;
