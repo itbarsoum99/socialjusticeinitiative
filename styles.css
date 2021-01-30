@@ -6,6 +6,7 @@
 body {
   background-color: #c7e3f2;
   font-family: "Inter", sans-serif;
+  margin-bottom: 0px;
 }
 
 .card {
@@ -15,6 +16,21 @@ body {
   margin: auto;
   margin-top: 70px;
   margin-bottom: 70px;
+}
+
+.foot {
+  background-color: #000;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  width: 44vw;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 1em;
+  padding-left: 0em;
+  padding-right: 0em;
+  color: white;
+  text-align: center;
 }
 
 ::-webkit-scrollbar {
@@ -37,6 +53,14 @@ body {
 ::selection {
   background-color: #FAB57F;
   color: black;
+}
+
+.som {
+  display: none;
+}
+
+.hom {
+  display: block;
 }
 
 p {
@@ -165,6 +189,9 @@ li a:hover {
     margin-top: 40px;
     margin-bottom: 40px;
   }
+  .foot {
+    width: 70vw;
+  }
   table, thead, tbody, th, td, tr {
 		display: block; 
 	}
@@ -202,7 +229,16 @@ li a:hover {
     margin-block-end: 0.6em;
   }
 }
-		
+
+@media (max-width: 800px) {
+  .hom {
+    display: none;
+  }
+  .som {
+    display: block;
+  }
+}
+
 @media (max-width: 600px) {
   .card {
     width: 100vw;
@@ -210,18 +246,24 @@ li a:hover {
     margin-bottom: 0px;
     border-radius: 0px;
   }
+  .foot {
+    width: 100vw;
+    border-radius: 0px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
   #sec5 {
     border-radius: 0px;
   }
   body {
     margin: 0!important;
-    background-color: #111;
     scrollbar-width: none;
   }
   body::-webkit-scrollbar {
     display: none;
     -ms-overflow-style: none;
   }
+  
 }
 
 
@@ -233,6 +275,10 @@ li a:hover {
     margin-bottom: 0px;
     border-radius: 0px;
   }
+  .foot {
+    width: 100vw;
+    border-radius: 0px;
+  }
   #sec5 {
     border-radius: 0px;
   }
@@ -271,5 +317,11 @@ li a:hover {
   table {
     margin-left: 18px;
     margin-right: 22px;
+  }
+  .hom {
+    display: none;
+  }
+  .som {
+    display: block;
   }
 }
