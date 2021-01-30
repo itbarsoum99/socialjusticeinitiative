@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+body {
+  background-color: #c7e3f2;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 7px;
+  width: 44vw;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+::selection {
+  background-color: #FAB57F;
+  color: black;
+}
+
+p {
+  margin-block-start: 0.4em;
+}
+
+ul {
+  margin-block-start: 0.4em;
+  margin-block-end: 0em;
+}
+
+.right {
+  font-size: 15.1667px;
+  color: rgba(255,255,255,0.83);
+  border-left: 1px solid rgba(255,255,255,0.259);
+  font-weight: 300;
+}
+
+.right a {
+  color: rgba(255,255,255,0.83);
+  text-decoration: none;
+  border: 0.7px solid rgba(255,255,255,0.83);
+  padding: 8px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.right a:hover {
+  color: #5effff;
+  cursor: pointer;
+  border: 0.7px solid #5effff;
+}
+
+.border {
+  width: 175px;
+  text-align: right;
+  font-size: 17.3333px;
+  vertical-align: top;
+  padding-right: 25px;
+}
+
+td {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#sec1 {
+  padding: 1em;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+}
+
+
+#sec2, #sec3, #sec4, #sec5 {
+  color: #fff;
+  padding: 1em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+
+.head {
+  font-size: 2em;
+  letter-spacing: -0.1rem;
+  color: #383838;
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: 600;
+  line-height: .75;
+}
+
+.subhead {
+  color: rgba(0,0,0,0.522);
+  letter-spacing: -0.05rem;
+  font-size: 17.333px;
+  line-height: .75;
+  font-weight: 400;
+}
+
+img {
+  width: 7rem;
+  border-radius: 100%;
+}
+
+#sec2 {
+  background-color: #4299ff;
+}
+
+#sec3 {
+  background-color: #3491ff;
+}
+
+#sec4 {
+  background-color: #278aff;
+}
+
+#sec5 {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #1a83ff;
+}
+
+
+li p{
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+li a {
+  border: none !important;
+  text-decoration: underline #fff !important;
+  padding: 0px !important;
+  transition: 0.3s;
+}
+
+li a:hover {
+  text-decoration: underline #5effff !important;
+  color: #5effff;
+}
+
+@media (max-width: 1050px) {
+  .card {
+    width: 70vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  table, thead, tbody, th, td, tr {
+		display: block; 
+	}
+ 
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+  .border { 
+    border-right: none;
+    text-align: left !important;
+		border-bottom: 1px solid rgba(255,255,255,0.259);
+		position: relative;
+		white-space: normal;
+		text-align:left;
+    width: 100%;
+    padding: 0px !important;
+    padding-left: 0px !important;
+	}
+  .right {
+    border-left: none;
+  }
+  td {
+    padding: 12px;
+    padding-left: 0px !important;
+    padding-top: 0px;
+  }
+  table {
+    margin-left: 18px;
+    margin-right: 22px;
+  }
+  p, ul {
+    margin-block-start: 1.2em;
+    margin-block-end: 0.6em;
+  }
+}
+		
+@media (max-width: 600px) {
+  .card {
+    width: 100vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+  }
+  #sec5 {
+    border-radius: 0px;
+  }
+  body {
+    margin: 0!important;
+    background-color: #111;
+    scrollbar-width: none;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+  }
+}
+
+
+
+@media (pointer:coarse) {
+  .card {
+    width: 100vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+  }
+  #sec5 {
+    border-radius: 0px;
+  }
+  p, ul {
+    margin-block-start: 1.2em;
+    margin-block-end: 0.6em;
+  }
+  table, thead, tbody, th, td, tr {
+		display: block; 
+	}
+ 
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+  .border { 
+    border-right: none;
+    text-align: left !important;
+		border-bottom: 1px solid rgba(255,255,255,0.259);
+		position: relative;
+		white-space: normal;
+		text-align:left;
+    width: 100%;
+    padding: 0px !important;
+    padding-left: 0px !important;
+	}
+  .right {
+    border-left: none;
+  }
+  td {
+    padding: 12px;
+    padding-left: 0px !important;
+    padding-top: 0px;
+  }
+  table {
+    margin-left: 18px;
+    margin-right: 22px;
+  }
+}
