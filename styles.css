@@ -88,7 +88,7 @@ ul {
   transition: 0.3s;
 }
 
-.right button:hover {
+.right .button:hover {
   color: #5effff;
   cursor: pointer;
   border-color: #5effff;
