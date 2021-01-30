@@ -335,13 +335,16 @@ li a:hover {
     display: block;
   }
   .right {
-    font-size: 48px;
+    font-size: 42px;
   }
   .right .button {
     border: 1.7px solid rgba(255,255,255,0.83);
   }
   .border {
-    font-size: 60px;
+    font-size: 54px;
+  }
+  .head {
+    font-size: 1.5em;
   }
   .subhead {
     font-size: 45px;
