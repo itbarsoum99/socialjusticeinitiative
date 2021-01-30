@@ -339,6 +339,7 @@ li a:hover {
   }
   .right .button {
     border: 1.7px solid rgba(255,255,255,0.83);
+    padding: 16px;
   }
   .border {
     font-size: 54px;
