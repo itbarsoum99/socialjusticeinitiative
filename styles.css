@@ -356,4 +356,7 @@ li a:hover {
     text-decoration: underline #5effff !important;
     color: #5effff;
   }
+  img {
+    width: 3em;
+  }
 }
